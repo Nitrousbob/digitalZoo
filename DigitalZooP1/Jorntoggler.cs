@@ -1,6 +1,6 @@
 ﻿namespace DigitalZooP1
 {
-    internal class Jorntoggler : Animal , ICanSwim, ICanBurrow
+    internal class Jorntoggler : Animal , ICanBurrow
     {
         public Jorntoggler(string name, int numberOfEyes, int numberOfLegs, string favoriteFood) : base(name, numberOfEyes, numberOfLegs, favoriteFood)
         {

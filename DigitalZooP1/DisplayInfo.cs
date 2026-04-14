@@ -16,6 +16,11 @@
             Console.WriteLine($"The animal is a {animal.GetType().Name} and its name is {animal.Name} and has {animal.NumberOfLegs} legs.");
         }
 
+        public static void DisplayEnclosureInfo(Enclosure enclosure)
+        {
+            Console.WriteLine($"The enclosure is a {enclosure.Name} enclosure.");
+        }
+
         public static void DisplayAnimalAbilities(Animal animal)
         {
             if (animal is ICanFly flyingAnimal)
